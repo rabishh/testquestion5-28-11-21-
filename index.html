@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>this is sum of add even program</h1>
+    <script>
+        var arr=[1,2,3,4,5,6,7,8,9,11];
+        var even=0;
+        var odd=0;
+        for(var i=0;i<arr.length;i++){
+            if(arr[i]%2==0){
+                even=even+arr[i];
+            }else{
+                odd=odd+arr[i];
+            }
+        }
+        document.write("sum of even number is "+ even);
+        document.write("<br>");
+        document.write("sum of odd number is "+ odd);
+    </script>
+</body>
+</html>
